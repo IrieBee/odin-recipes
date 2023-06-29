@@ -1,0 +1,22 @@
+body {
+    font-family: verdana, sans-serif;
+    background-color:hsl(350, 30%, 95%);
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid hsl(230, 50%, 50%);
+    color: hsl(350, 50%, 60%);
+
+    
+}
+li {
+    padding: 10px;
+    margin: auto;
+    color:hsl(350, 50%, 50%)
+}
+
+.links {
+    color:hsl(230, 50%, 30%);
+    font-style: italic;
+}
