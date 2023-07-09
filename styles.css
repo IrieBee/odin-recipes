@@ -3,15 +3,24 @@
    margin: 0;
    padding: 0; 
 }
-body {
+
+section {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-height:auto;
+    max-width: 900px;
     gap: 2em;
-    padding: 3em;
+    padding: 2em;
     font-family: verdana, sans-serif;
-    background-color:hsl(350, 30%, 95%);
+    background-color:hsl(350, 30%, 90%);
     font-size: 24px;
+} 
+
+body {
+    background-color:hsl(350, 20%, 50%)
 }
 
 h1 {
@@ -26,9 +35,15 @@ h3, p {
     color:hsl(230, 50%, 30%);
 }
 
+.button {
+    display: flex;
+    align-self: flex-end;
+    gap: 0.5em;
+}
 button {
-    border-radius: 25px;
-    border-color:hsl(230, 50%, 50%);
+    border-radius: 10px;
+    border-color:hsl(230, 80%, 80%);
+    padding: 0.25em 0.5em;
 }
 
 li {
