@@ -26,6 +26,11 @@ h3, p {
     color:hsl(230, 50%, 30%);
 }
 
+button {
+    border-radius: 25px;
+    border-color:hsl(230, 50%, 50%);
+}
+
 li {
     padding: 10px;
     margin: auto;
