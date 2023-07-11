@@ -10,17 +10,17 @@ section {
     justify-content: center;
     align-items: center;
     margin: auto;
-    max-height:auto;
     max-width: 900px;
     gap: 2em;
     padding: 2em;
-    font-family: verdana, sans-serif;
+    font-family: Helvetica, verdana, sans-serif;
     background-color:hsl(350, 30%, 90%);
     font-size: 24px;
 } 
 
 body {
-    background-color:hsl(350, 20%, 50%)
+    /*background-color:hsl(350, 20%, 50%);*/
+    background:linear-gradient(90deg, hsl(350, 20%, 50%) 0%, hsl(260, 20%, 50%) 180%);
 }
 
 h1 {
@@ -29,10 +29,12 @@ h1 {
     border-radius: 25px;
     color: hsl(350, 50%, 60%);
     padding: 0.3em;
+    letter-spacing: 0.2rem;
 }
 
 h3, p {
     color:hsl(230, 50%, 30%);
+    line-height: 1.5;
 }
 
 .button {
@@ -50,6 +52,7 @@ li {
     padding: 10px;
     margin: auto;
     color:hsl(350, 50%, 50%)
+    
 }
 
 .links {
