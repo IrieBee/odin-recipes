@@ -7,10 +7,11 @@
 section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     max-width: 900px;
+    min-height: 100vh;
     gap: 2em;
     padding: 2em;
     font-family: Helvetica, verdana, sans-serif;
@@ -19,8 +20,8 @@ section {
 } 
 
 body {
-    /*background-color:hsl(350, 20%, 50%);*/
-    background:linear-gradient(90deg, hsl(350, 20%, 50%) 0%, hsl(260, 20%, 50%) 180%);
+    background-color:hsl(350, 20%, 50%);
+    /*background:linear-gradient(90deg, hsl(350, 20%, 50%) 0%, hsl(260, 20%, 50%) 180%); */
 }
 
 h1 {
@@ -42,6 +43,7 @@ h3, p {
     align-self: flex-end;
     gap: 0.5em;
 }
+
 button {
     border-radius: 10px;
     border-color:hsl(230, 80%, 80%);
@@ -52,7 +54,14 @@ li {
     padding: 10px;
     margin: auto;
     color:hsl(350, 50%, 50%)
-    
+}
+
+ol {
+    line-height: 1.5;
+}
+
+.emptySpace {
+    padding-bottom: 30rem;
 }
 
 .links {
