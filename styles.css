@@ -59,6 +59,9 @@ li {
 ol {
     line-height: 1.5;
 }
+ ul li::marker {
+    content: '*';
+ }
 
 .emptySpace {
     padding-bottom: 30rem;
