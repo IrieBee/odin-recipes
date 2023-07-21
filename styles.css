@@ -31,15 +31,18 @@ body {
 
 h1 {
     text-align: center;
-    /* border: 3px solid hsl(230, 50%, 50%);
-    border-radius: 25px; */
+    border: 3px solid hsl(230, 50%, 50%);
+    border-radius: 25px;
     color: hsl(350, 50%, 60%);
     padding: 0.3em;
     letter-spacing: 0.2rem;
 }
 
-h1::before {
+h3::before {
     background-color: hsl(230, 50%, 50%);
+    content: '🤓';
+    /* padding: 5px 5px; */
+    margin-right: 10px;
     
 }
 
