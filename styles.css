@@ -5,6 +5,7 @@
 }
 
 section {
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -52,6 +53,8 @@ h3, p {
 }
 
 .button {
+    position: sticky;
+    top: 5px;
     display: flex;
     align-self: flex-end;
     gap: 0.5em;
